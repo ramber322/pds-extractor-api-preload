@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+.env.local
+
+# Temporary Files
+temp_*
+*.tmp
+*.log
+
+# Model Files (if large)
+*.pkl
+*.safetensors
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+temp/
