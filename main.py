@@ -39,9 +39,11 @@ from feature_engine import (
     get_training_hours,
     get_eligibility,
     detect_eligibility_level,
-    get_eligibility_match_status
+    get_eligibility_match_status,
+    get_sentence_bert_model
 )
-
+print("Loading Sentence-BERT model...")
+get_sentence_bert_model()
 # =========================
 # JOB TITLE TO CATEGORY MAPPING
 # =========================
